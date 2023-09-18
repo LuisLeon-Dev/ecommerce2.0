@@ -11,14 +11,14 @@ function StackNavigator() {
     <NavigationContainer>
       <Stack.Navigator
         initialRouteName="Home"
-        screenOptions={({ route }) => ({
-          headerShown: true,
-          header: () => (
-            <View>
-              <Header title={"Hola"} />
-            </View>
-          ),
-        })}
+        // screenOptions={({ route }) => ({
+        //   headerShown: true,
+        //   header: () => (
+        //     <View>
+        //       <Header title={"Hola"} />
+        //     </View>
+        //   ),
+        // })}
       >
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Products" component={Products} />

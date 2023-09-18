@@ -1,16 +1,16 @@
-import { StyleSheet } from 'react-native'
-import { colors } from '../../constants/colors'
+import { StyleSheet } from "react-native";
+import { colors } from "../../constants/colors";
 
 export default styles = StyleSheet.create({
   container: {
-    backgroundColor: colors.primary,
     height: 80,
-    width: '100%',
-    justifyContent: 'center',
-    alignItems: 'center',
+    width: "100%",
+    justifyContent: "center",
+    alignItems: "center",
   },
   text: {
     fontSize: 30,
-    fontFamily: 'PoppinsThinItalic',
+    fontFamily: "PoppinsBold",
+    color: "#fff",
   },
-})
+});
