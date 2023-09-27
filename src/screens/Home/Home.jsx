@@ -5,10 +5,12 @@ import { Header } from "../../components";
 import React from "react";
 import dataCategories from "../../data/dataCategories";
 import styles from "./Home.style";
+import Counter from "../../components/Counter";
 
-const Home = ({ setCategorySelected, navigation }) => {
+const Home = ({ navigation }) => {
   return (
     <View style={styles.container}>
+      {/* <Counter /> */}
       {/* <Header title={"Categories"} /> */}
       <FlatList
         data={dataCategories}
